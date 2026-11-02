@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Luke Leonard, Backend Data Analyst at Outside Agents. Current work, experience, education, and personal projects.">
+<meta name="theme-color" content="#111f26">
+<title>Luke Leonard — Current work &amp; experience</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css"><script src="workshop.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#experience">Skip to experience</a>
+<header class="site-header"><a class="wordmark" href="#top" aria-label="Luke Leonard home">LL<span class="mark-dot">.</span></a><nav aria-label="Main navigation"><a href="#experience">Experience</a><a href="#background">Background</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a></nav><a class="header-resume" href="assets/luke-leonard-resume.pdf" download>Résumé ↓</a></header>
+<main id="top">
+<section class="hero" aria-labelledby="hero-title"><div class="hero-copy content-column">
+<p class="eyebrow"><span class="status-dot"></span> OUTSIDE AGENTS · BACKEND DATA ANALYST · AUG 2024–PRESENT</p>
+<h1 id="hero-title">Luke <em>Leonard.</em></h1><p class="hero-deck">Backend Data Analyst</p>
+<p class="hero-support">I’m currently a Backend Data Analyst at Outside Agents. Here’s a look at what I’ve been working on, along with my background and a few earlier projects.</p><div class="hero-proof"><div><strong>Personalized nudges</strong><span>Lead designer and developer of feedback shaped by activity, profiles, and cohorts.</span></div><div><strong>Connected data</strong><span>PostgreSQL + MongoDB integration, automated extraction, and AWS deployment.</span></div><div><strong>Performance dashboards</strong><span>User and admin views of sales, training, marketing, and historical performance.</span></div></div>
+<div class="hero-actions"><a class="button primary" href="#experience">View my experience ↘</a><a class="text-link" href="assets/luke-leonard-resume.pdf" download>Download résumé ↓</a><a class="text-link" href="#contact">Contact ↗</a></div>
+</div><aside class="workshop" aria-label="Animated illustration of my data workflow">
+<div class="workshop-heading"><div><p class="eyebrow">THE DATA WORKSHOP</p><p class="workshop-subtitle">A little illustration of what I do. Scenes accompany the experience below.</p></div><button id="motion-toggle" type="button" aria-pressed="false" aria-label="Pause animation">Ⅱ <span>Pause</span></button></div>
+<canvas id="workshop-canvas" width="640" height="820" aria-hidden="true"></canvas>
+<div class="scene-stage" aria-hidden="true"><span class="stage-number">01 / 03</span><span id="stage-label">Seasonal patterns</span></div>
+<div class="insight-screen" id="insight-screen" data-active="true" aria-label="Fictional dashboard illustration">
+<div class="screen-top"><span id="dashboard-kind">SEASONAL PATTERNS</span><span class="screen-light"></span></div>
+<div id="dashboard-content"></div>
+<p class="screen-note">FICTIONAL EXAMPLE · NOT COMPANY RESULTS</p>
+</div>
+<div class="nudge-card is-hidden" id="nudge-card" role="region" aria-label="Generated fictional nudge"><div class="nudge-card-heading"><span id="nudge-group">Advanced users</span><button id="dismiss-nudge" type="button" aria-label="Close nudge example">×</button></div><strong id="nudge-person">Gloria</strong><p id="nudge-text">Gloria’s historically strongest sales period begins in three weeks.</p><small>Fictional person and data · illustrative feedback</small></div>
+<div class="workshop-caption"><p><span class="status-dot"></span> Fictional data · Illustrates my work</p><div class="cycle-track" aria-hidden="true"><i id="cycle-progress"></i></div><p class="scene-description">Raw records → structured metrics → useful feedback</p></div>
+<noscript><p class="no-script">This workshop animates with JavaScript. All experience and example explanations are available below.</p></noscript>
+</aside></section>
+<div class="reading-column">
+<section id="experience" class="section experience-header" aria-labelledby="experience-title">
+<div class="compact-heading"><div><p class="eyebrow">01 / CURRENT WORK</p><h2 id="experience-title">Outside Agents</h2></div><p class="role-dates">Backend Data Analyst<br><span>August 2024 — Present</span></p></div>
+<article class="case"><h3>Data integration &amp; automation</h3><ul class="resume-points"><li>Spearheaded data integration and analysis through PostgreSQL and MongoDB, automating extraction for internal and client-facing data platforms.</li><li>Automated and implemented systems through AWS for developers and sales teams.</li></ul><p class="tech-line">POSTGRESQL / MONGODB / PYTHON / AWS</p></article>
+</section>
+<section class="story-row" id="nudges" aria-labelledby="nudge-title">
+<article class="case story-copy"><p class="eyebrow">PERSONALIZED FEEDBACK</p><h3 id="nudge-title">Personalized nudges <br>&amp; user groups</h3><ul class="resume-points"><li>Lead designer and developer of personalized nudges based on curated user profiles, recent activity, and cohort context.</li><li>Designed an algorithm to categorize and rank clients into user groups and cohorts using live sales, marketing, and training interaction metrics.</li><li>Assisted with ChatGPT API integration and a specialized user database to tailor responses to user behavior and preferences.</li></ul><p class="tech-line">USER CATEGORIZATION / PERSONALIZATION / API INTEGRATION</p></article>
+<div class="scene-slot nudge-scene" id="nudge-scene" aria-label="Illustration: a typing worker generates personalized nudges onto a conveyor"><p class="scene-label">ACTIVITY → USER GROUPS → PERSONALIZED FEEDBACK</p><div class="group-key" aria-label="Example user cohorts"><span>Top Performers</span><span>Advanced users</span><span>Intermediate users</span><span>New users</span></div><div id="belt-outputs" aria-label="Generated nudge examples"></div><p class="output-help">Hover, focus, or tap a moving box to read its nudge above. Little Luke checks them, too.</p><p class="scene-fallback">Fictional example: Gloria’s historically strongest sales period begins in three weeks.</p></div>
+</section>
+<section class="story-row dashboard-story" id="dashboards" aria-labelledby="dashboards-title">
+<article class="case story-copy"><p class="eyebrow">USER &amp; ADMIN REPORTING</p><h3 id="dashboards-title">User &amp; admin <br>dashboards</h3><ul class="resume-points"><li>Designed user and administrator dashboards showing growth and standouts in sales, training, and marketing.</li><li>Built views to highlight and compare recent performance alongside complete historical records.</li></ul><p class="tech-line">DASHBOARD DESIGN / HISTORICAL COMPARISONS / PERFORMANCE REPORTING</p><p class="example-explainer">The examples use fictional people and four cohorts: Top Performers, Advanced users, Intermediate users, and New users.</p></article>
+<div class="scene-slot dashboard-scene" id="dashboard-scene" aria-label="Illustration: a worker sculpts a chart and switches on three fictional dashboard examples"><p class="scene-fallback">Fictional example: $100,000 to $135,000 in matching periods is 35% growth. Cohort comparisons provide context, not evidence of cause and effect.</p></div>
+</section>
+<section id="background" class="section background-section" aria-labelledby="background-title"><p class="eyebrow">02 / EDUCATION &amp; PROJECTS</p><h2 id="background-title">Education &amp; personal projects</h2><div class="background-grid"><div class="education"><h3>B.S. in Computer Science</h3><p>Illinois Institute of Technology · May 2024</p><p class="muted">Electives: Intro to Machine Learning and Intro to Artificial Intelligence.</p><div class="skills"><span>Python</span><span>SQL</span><span>PostgreSQL</span><span>MongoDB</span><span>AWS</span><span>C / C++</span><span>Java</span><span>JavaScript</span></div></div><div class="project-list"><article><div><h3>DemonHacks CTA Award · 2019</h3><p>Simulated train-car occupancy data delivered through an API and displayed on a TV.</p></div></article><article><div><h3>Raspberry Pi → Unreal Engine 5 VR</h3><p>Led a class project sending live sensor data through an API into a VR visualization.</p></div></article><article><div><h3>Games &amp; systems from scratch</h3><p>Lead programmer on a Unity FPS and a Python Asteroids-style game using calculus for physics. Built a class operating system project in C, including a kernel and scheduler.</p></div></article></div></div></section>
+<section id="contact" class="section contact-section" aria-labelledby="contact-title"><div><p class="eyebrow">03 / CONTACT</p><h2 id="contact-title">Get in touch</h2><p>Feel free to reach out about my work, projects, or opportunities.</p></div><div><a class="email-link" href="mailto:LukeLeonardm@gmail.com">LukeLeonardm@gmail.com ↗</a><div class="contact-links"><a href="https://www.linkedin.com/in/luke-leonard-b83322150/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/LukeLeonard1" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="assets/luke-leonard-resume.pdf" download>Download résumé ↓</a></div></div></section>
+<footer class="site-footer"><a class="wordmark" href="#top">LL<span class="mark-dot">.</span></a><span>Luke Leonard · Made using Codex</span><a href="#top">Back to top ↑</a></footer>
+</div></main></body></html>
